@@ -52,7 +52,7 @@ export const PopupAdd = ({ show, toggle }) => {
 
   return (
     <>
-      <div className={show ? "w-[100%]" : "hidden"}>
+      <div className={show ? "w-[100%] bg-[rgba(0,0,0,0.7)] h-screen fixed top-0 left-0" : "hidden"}>
         <div className="cursor-pointer absolute right-12 top-10" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
