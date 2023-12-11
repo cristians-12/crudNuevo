@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Tabla/>
-      <button className='absolute bottom-5 right-5' onClick={()=>{setPopup(true)}}>
+      <button className='absolute md:bottom-5 md:right-5 bottom-5 right-5' onClick={()=>{setPopup(true)}}>
         Añadir
       </button>
       <PopupAdd show={popup} toggle={toggle}/>

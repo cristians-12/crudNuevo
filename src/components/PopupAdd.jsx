@@ -52,7 +52,7 @@ export const PopupAdd = ({ show, toggle }) => {
 
   return (
     <>
-      <div className={show ? "w-[100%] bg-[rgba(0,0,0,0.7)] h-screen fixed top-0 left-0" : "hidden"}>
+      <div className={show ? "w-[100%] bg-[rgba(0,0,0,0.7)] md:h-screen h-[100%] fixed top-0 left-0" : "hidden"}>
         <div className="cursor-pointer absolute right-12 top-10" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export const PopupAdd = ({ show, toggle }) => {
             />
           </svg>
         </div>
-        <div className="bg-green-900 p-[50px] w-[50%] rounded-2xl flex flex-col absolute top-[5%] left-[25%]">
+        <div className="bg-green-900 p-[50px] md:w-[50%] w-[60%] rounded-2xl flex flex-col absolute md:top-[5%] top-0 left-[25%]">
           <h5 className="text-2xl">Agregar nuevo</h5>
           <input
             type="text"
