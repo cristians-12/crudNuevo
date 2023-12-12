@@ -69,7 +69,7 @@ export const PopupAdd = ({ show, toggle }) => {
             />
           </svg>
         </div>
-        <div className="bg-green-900 p-[50px] md:w-[50%] w-[60%] rounded-2xl flex flex-col absolute md:top-[0%] top-0 left-[25%] overflow-scroll h-[50%]">
+        <div className="bg-green-900 p-[50px] md:w-[50%] w-[60%] rounded-2xl flex flex-col absolute md:top-[0%] top-0 left-[25%] overflow-scroll h-[70%]">
           <h5 className="text-2xl">Agregar nuevo</h5>
           <input
             type="text"
